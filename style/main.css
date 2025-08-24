@@ -315,12 +315,13 @@ hr {
 
 .tile {
   position: absolute;
-  -webkit-transition: 100ms ease-in-out;
-  -moz-transition: 100ms ease-in-out;
-  transition: 100ms ease-in-out;
-  -webkit-transition-property: -webkit-transform;
-  -moz-transition-property: -moz-transform;
-  transition-property: transform; }
+  /* -webkit-transition: 100ms ease-in-out; */
+  /* -moz-transition: 100ms ease-in-out; */
+  /* transition: 100ms ease-in-out; */
+  /* -webkit-transition-property: -webkit-transform; */
+  /* -moz-transition-property: -moz-transform; */
+  /* transition-property: transform; */
+}
   .tile .tile-inner {
     border-radius: 3px;
     background: #eee4da;
@@ -437,12 +438,13 @@ hr {
     -ms-transform: scale(1);
     transform: scale(1); } }
 .tile-new .tile-inner {
-  -webkit-animation: appear 200ms ease 100ms;
-  -moz-animation: appear 200ms ease 100ms;
-  animation: appear 200ms ease 100ms;
-  -webkit-animation-fill-mode: backwards;
-  -moz-animation-fill-mode: backwards;
-  animation-fill-mode: backwards; }
+  /* -webkit-animation: appear 200ms ease 100ms; */
+  /* -moz-animation: appear 200ms ease 100ms; */
+  /* animation: appear 200ms ease 100ms; */
+  /* -webkit-animation-fill-mode: backwards; */
+  /* -moz-animation-fill-mode: backwards; */
+  /* animation-fill-mode: backwards; */
+}
 
 @-webkit-keyframes pop {
   0% {
@@ -500,12 +502,13 @@ hr {
     transform: scale(1); } }
 .tile-merged .tile-inner {
   z-index: 20;
-  -webkit-animation: pop 200ms ease 100ms;
-  -moz-animation: pop 200ms ease 100ms;
-  animation: pop 200ms ease 100ms;
-  -webkit-animation-fill-mode: backwards;
-  -moz-animation-fill-mode: backwards;
-  animation-fill-mode: backwards; }
+  /* -webkit-animation: pop 200ms ease 100ms; */
+  /* -moz-animation: pop 200ms ease 100ms; */
+  /* animation: pop 200ms ease 100ms; */
+  /* -webkit-animation-fill-mode: backwards; */
+  /* -moz-animation-fill-mode: backwards; */
+  /* animation-fill-mode: backwards; */
+}
 
 .above-game:after {
   content: "";
